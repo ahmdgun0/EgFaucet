@@ -85,7 +85,7 @@ auth.onAuthStateChanged((user) => {
       // Redirect To dashboard
       const domain = window.location.hostname;
       const port = window.location.port;
-      window.location.replace(`http://${domain}:${port}/EgFaucet/user/dashboard/dashboard.html`);
+      window.location.replace(`http://${domain}:${port}/Crypto-currency-site-Native/user/dashboard/dashboard.html`);
   } else {
     console.log("user logged out!");
   }
