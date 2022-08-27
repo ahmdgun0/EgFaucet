@@ -43,7 +43,7 @@ auth.onAuthStateChanged((user) => {
   } else {
     const domain = window.location.hostname;
     const port = window.location.port;
-    window.location.replace(`http://${domain}:${port}/login/login.html`);
+    window.location.replace(`http://${domain}:${port}/Crypto-currency-site-Native/login/login.html`);
   }
 });
 // logging user out
